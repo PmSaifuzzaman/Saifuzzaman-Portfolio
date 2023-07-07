@@ -19,20 +19,43 @@ font-family: 'Varela Round', sans-serif;
 /* Nav design   */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-logo{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    margin-left: 150px;
 }
 
 nav>ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
     margin-right: 50px;
+    color: black;
+    
 }
 nav a{
     text-decoration: none;
+    color: black;
+}
+
+/* Header design */
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 50px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner .profile-pic{
+    height: 500px;
+    weight: 400px;
 }
