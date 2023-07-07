@@ -1,0 +1,38 @@
+/* overall design */
+body{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+.primary-text-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background:#FD6E0A ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+/* Nav design   */
+nav{
+    display: flex;
+}
+.nav-logo{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
