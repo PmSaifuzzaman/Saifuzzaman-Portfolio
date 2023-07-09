@@ -67,3 +67,32 @@ nav a{
 ul a:hover{
     color: #FD6E0A;
 }
+
+/* Main section design */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about us section design */
+
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 50px 150px;
+    
+}
+.about-information{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    padding-left: 90px;
+}
+.about-me{
+    font-size: 35px;
+    
+}
+.about-container{
+    text-align: center;
+}
