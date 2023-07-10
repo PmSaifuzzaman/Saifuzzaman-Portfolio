@@ -124,3 +124,27 @@ main{
     gap: 25px;
     margin-top: 50px;
 }
+
+/* resume section design */
+
+.resume-heading{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+}
+.resume-container{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.btn-primary-resume{
+    background:#FD6E0A ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 20px;
+}
